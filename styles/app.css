@@ -1,0 +1,182 @@
+:root {
+    --primary-bg-color: rgb(35, 35, 35);
+    --primary-text-color: rgb(255, 255, 255);
+    --primary-logo-color:  rgb(77, 77, 77);
+    --primary-card-color:  rgb(61, 82, 107);
+
+    /* -- */
+
+  }
+  
+ 
+body {
+    background-color: var(--primary-bg-color) !important;
+    color: var(--primary-text-color) !important;
+
+  }
+.navbar-lux{
+    height: 40px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+}
+.cardMyToken{
+    background-color:var(--primary-card-color) ;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+}
+.iconLinkScan{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.balance2MyToken{
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 8px;
+    opacity: 60%;
+
+}
+
+.balanceMyToken{
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.cardStaking{
+margin-top: 20px;
+}
+
+.cardStakingInner{
+    background-color:var(--primary-card-color) ;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.btn-primary-lux{
+    background-color: rgb(163, 198, 221) !important;
+    height: 40px;
+    padding: 8px 20px 8px 20px !important;
+    color: black !important;
+    font-weight: 600 !important;
+
+}
+
+.btn-stake{
+    height: 40px !important;
+    background-color: rgb(163, 198, 221) !important;
+
+}
+
+.icon-btn-vct{
+    /* color: black !important; */
+}
+.inputValueStaking{
+    background-color: rgb(113, 147, 167);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 8px 14px 8px 14px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.296) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.148) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0.049) 100%) !important;
+    box-shadow: inset -3px -3px 9px rgba(108, 108, 108, 0.14), inset 0px 3px 9px rgba(255, 255, 255, 0.534), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 20px rgba(0, 0, 0, 0.356);
+    margin-bottom: 10px;
+
+}
+
+
+
+.button-85 {
+  color: #fff !important;
+  padding: 15px 20px !important ;
+  background-color: #38b3d2 !important;
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%) !important;
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2) !important;
+  border-radius: 14px !important;
+  font-size: 16px !important;
+  height: 35px !important;
+
+  border: 0 !important;
+
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  touch-action: manipulation !important;
+
+  cursor: pointer !important;
+}
+
+.button-84 {
+    color: #fff !important;
+    padding: 15px 20px !important ;
+    height: 35px !important;
+    background-color: #387dd2 !important;
+
+    background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%) !important;
+    box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2) !important;
+    border-radius: 14px !important;
+      font-size: 16px !important;
+  
+    border: 0 !important;
+  
+    user-select: none !important;
+    -webkit-user-select: none !important;
+    touch-action: manipulation !important;
+  
+    cursor: pointer !important;
+  }
+
+  .button-87 {
+    color: #fff !important;
+    padding: 15px 20px !important ;
+    background-color: #633e93 !important;
+    background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%) !important;
+    box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2) !important;
+    border-radius: 14px !important;
+    font-size: 16px !important;
+    height: 45px !important;
+  
+    border: 0 !important;
+  
+    user-select: none !important;
+    -webkit-user-select: none !important;
+    touch-action: manipulation !important;
+  
+    cursor: pointer !important;
+  }
+  .button-88 {
+    color: #fff !important;
+    padding: 15px 20px !important ;
+    background-color: #43bc2e !important;
+    background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%) !important;
+    box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2) !important;
+    border-radius: 14px !important;
+    font-size: 16px !important;
+    height: 45px !important;
+  
+    border: 0 !important;
+  
+    user-select: none !important;
+    -webkit-user-select: none !important;
+    touch-action: manipulation !important;
+  
+    cursor: pointer !important;
+  }
+
+  .nav-lux{
+    background-color: rgba(255, 255, 255, 0.105);
+    border-radius: 15px;
+    margin-top: 20px;
+  }
+
+  .lockAmount{
+    font-size: 60px;
+    font-weight: 500;
+  }
